@@ -29,14 +29,14 @@ Suppose you want to download Hunter x Hunter
 
 ![4](https://cdn.discordapp.com/attachments/762973053973823499/770881969172119592/unknown.png)
 
-- type in `python 4anime-downloader.py`
+- Type in `python 4anime-downloader.py`
 
 ![5](https://cdn.discordapp.com/attachments/762973053973823499/770882237788979220/unknown.png)
 
-- fill in the details
+- Fill in the details
 
 ![6](https://cdn.discordapp.com/attachments/762973053973823499/770884030010884147/unknown.png)
 
-- your download has begun
+- Your download has begun.................
 
 ![7](https://cdn.discordapp.com/attachments/762973053973823499/770884082519244830/unknown.png)
