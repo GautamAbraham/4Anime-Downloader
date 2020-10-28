@@ -2,8 +2,7 @@
 ### Download batch/single episode from 4anime.to
 
 Install requirements from requirements.txt file by:
-
-`pip install -r rquirements.txt`
+`pip install -r requirements.txt`
 
 *(This is assuming that you have python and pip already installed)*
 
