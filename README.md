@@ -1,8 +1,6 @@
 # 4Anime-Downloader
 ## Download batch/single episode from 4anime.to
 
-First of all, thank you @ben-jnr for all your help with this
-
 Install requirements from requirements.txt file by:
 `pip install -r requirements.txt`
 
