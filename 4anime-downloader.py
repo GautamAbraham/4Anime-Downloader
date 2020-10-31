@@ -7,24 +7,15 @@ import sys
 import os
 session = requests.Session()
 
+#os.chdir(r"C:\Users\user\Downloads")						#setting default download directory		uncomment the line by removing the # and editting the address in quotes
+
 url = input("Enter episode URL: ")
 slice_index = url.rfind("-episode-") + 9
 sliced_url = url[:slice_index]
 #use start > 0 and end > 0 and start <= end
 start = int(input("Start episode: "))
 end = int(input("End episode: "))
-filename = "Episode"                                #default filename prefix
-filename = str(input("Filename prefix: "))          #Setting filename
-
-def set_directory():
-    directory = input("Enter Download directory: ")
-    if os.path.isdir(directory) :
-        os.chdir(directory)
-    else :
-        print("Enter a valid directory")
-        set_directory()
-        
-set_directory()
+filename = str(input("Filename prefix: "))					#Setting filename
 
 if start > 0 and end > 0 and start <= end : 
     for i in range(start,end+1):
@@ -34,7 +25,7 @@ if start > 0 and end > 0 and start <= end :
         else:
             final_url = sliced_url + no
         print("\naccessing url : " + final_url)
-        r = session.get(final_url)                  #starting webscraping
+        r = session.get(final_url)                  		#starting webscraping
         soup = BeautifulSoup(r.text, 'html.parser')
         source = soup.find_all('source')
         if(source != []):
